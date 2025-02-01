@@ -1,0 +1,76 @@
+:root {
+  --background-color: #745a44;
+  --nav-link-color: #396E94;
+    --nav-background-color: #34516F ;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #88ADD7  ;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    display: block;
+}
+.Social-Media {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+h2 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 0;
+}
+nav  {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+}
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  font-size: medium;
+}
+nav a:link, nav a:visited {
+  color: white
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+.card-img{
+-ms-ime-align: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    height: 25%;
+}
+footer p {
+  font-size: 1.2em;
+}    
+footer p a:hover {
+  text-decoration: underline;
+} 
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
