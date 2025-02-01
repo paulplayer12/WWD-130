@@ -6,7 +6,7 @@
     --nav-hover-background-color: #88ADD7  ;
 }
 #background {
-    height: 725px;
+    min-height: 725px;
 }
 body {
     background-color: var(--background-color);
@@ -20,12 +20,14 @@ body {
     margin: 0 auto;
     display: block;
 }
-.Social-Media {
-    display: flex;
-    width: 50px;
-    height: 50px;
-    padding: 0;
+.social {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+  height: auto;
+  width: 25%;
 }
+
 h2 {
     color: white;
     font-size: 2em;
@@ -33,14 +35,13 @@ h2 {
     padding: 0;
 }
 nav  {
-  list-style-type: none;
+  list-style-type: var(--nav-background-color);
   display: flex;
   align-items: center;
   text-align: center;
   
 }
 nav a {
-  padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
@@ -48,19 +49,19 @@ nav a {
   font-size: medium;
 }
 nav a:link, nav a:visited {
-  color: white
+  color: white;
 }
+
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
 .card-img{
--ms-ime-align: auto;
     text-align: center;
     margin: 0 auto;
     display: block;
     width: 25%;
-    height: 25%;
+    height: auto;
 }
 footer p {
   font-size: 1.2em;
@@ -71,6 +72,10 @@ footer p a:hover {
 .logo {
     width: 100px;
     height: 100px;
-    margin: 0 auto;
-    display: block;
+    margin:auto;
+}
+.social {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
