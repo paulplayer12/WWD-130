@@ -1,0 +1,125 @@
+.hero-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+  color: white; 
+  text-align: center ;
+text-shadow: 2px 2px 4px #000000;
+}
+:root {
+  --background-color: #745a44;
+  --nav-link-color: #396E94;
+    --nav-background-color: #34516F ;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #88ADD7  ;
+}
+#background {
+    min-height: 725px;
+}
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    display: block;
+}
+.social {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+  height: auto;
+  width: 25%;
+}
+
+h2 {
+    text-align: center;
+    padding: 0;
+    background-color: #a08c70;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+nav  {
+  list-style-type: var(--nav-background-color);
+  display: Flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color:#a08c70 ;
+  font-size: 20;
+}
+nav a {
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  font-size: medium;
+}
+nav a:link, nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+.card-img{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    height: auto;
+    border: 10px solid #d9c2a3;
+}
+footer p {
+  font-size: 1.2em;
+}    
+footer p a:hover {
+  text-decoration: underline;
+} 
+.logo {
+    width: 100px;
+    height: 100px;
+    margin:auto;
+}
+.social {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+body {
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding: 35px;
+  align-items: center;
+    justify-content: center;
+}
+main section img {
+  box-sizing: border-box;
+}
+p {
+  font-size: 20px;
+}
+h4 {
+  text-align: center;
+}
+image {
+  text-align: center;
+}
